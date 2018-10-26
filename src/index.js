@@ -117,7 +117,7 @@ class Game extends React.Component {
 
         const status = winner
             ? `Winner: ${winner}`
-            : `Next1 sdplayer: ${this.state.xIsNext ? "X" : "1O"}`;
+            : `Next player: ${this.state.xIsNext ? "X" : "O"}`;
 
         return (
             <div className="game">
